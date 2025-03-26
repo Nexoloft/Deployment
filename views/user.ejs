@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head>
+   <title>Home Page</title>
+</head>
+<body>
+   <h1>Group Members</h1>
+   <% for (var i in teammembers) {%>
+       <p>Name: <%=teammembers[i].student_name%>, Section: <%=teammembers[i].section%><p>
+   <% } %>
+   Go to <a href="/">Home Page</a>
+</body>
